@@ -68,7 +68,7 @@ class ViewController: UIViewController {
                     polyline.strokeWidth = 4
                     polyline.strokeColor = UIColor.black
                     polyline.map = self.googleMaps
-                    self.fitAllMarkers(_path: self.path)
+                    self.fitAllMarkers(path: self.path)
                     self.timer = Timer.scheduledTimer(timeInterval: 0.020, target: self, selector: #selector(self.animatePolylinePath), userInfo: nil, repeats: true)
 
                 }
@@ -91,10 +91,10 @@ class ViewController: UIViewController {
         }
     }
 
-    func fitAllMarkers(_path: GMSPath) {
+    func fitAllMarkers(path: GMSPath) {
         var bounds = GMSCoordinateBounds()
-        for index in 1..._path.count() {
-            bounds = bounds.includingCoordinate(_path.coordinate(at: index))
+        for index in 1...path.count() {
+            bounds = bounds.includingCoordinate(path.coordinate(at: index))
         }
         googleMaps.animate(with: GMSCameraUpdate.fit(bounds))
     }
