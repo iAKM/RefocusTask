@@ -1,0 +1,6 @@
+framework module Pods_RefocusTask {
+  umbrella header "Pods-RefocusTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
