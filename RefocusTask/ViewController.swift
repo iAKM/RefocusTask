@@ -8,12 +8,16 @@
 
 import UIKit
 import GoogleMaps
+import TGLParallaxCarousel
 
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var googleMaps: GMSMapView!
-
+    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var carouselView: TGLParallaxCarousel!
+    
+    var screenRect = CGRect()
     var locationManager = CLLocationManager()
     var polyline = GMSPolyline()
     var animationPolyline = GMSPolyline()
@@ -22,9 +26,11 @@ class ViewController: UIViewController {
     var i: UInt = 0
     var timer: Timer!
 
+    var uberTypes = [String]()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
+       // setupCarousel()
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
@@ -35,6 +41,9 @@ class ViewController: UIViewController {
         self.googleMaps.camera = camera
         self.googleMaps.isMyLocationEnabled = true
         self.googleMaps.settings.scrollGestures = true
+        collectionViewProperties()
+
+        uberTypes = ["UberPOOL", "UberGO", "UberX", "UberSUV"]
 
     }
 
@@ -101,6 +110,8 @@ class ViewController: UIViewController {
 
 }
 
+
+
 extension ViewController: CLLocationManagerDelegate {
 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -144,17 +155,40 @@ extension ViewController: GMSMapViewDelegate {
         return infoLabel
 
     }
-
 }
 
+extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
 
+    func collectionViewProperties() {
+        collectionView.dataSource = self
+        collectionView.delegate = self
+        let nibName = UINib(nibName: "CarCell", bundle:nil)
+        collectionView.register(nibName, forCellWithReuseIdentifier: "cell")
+        collectionView.setItemsInRow(items: 3)
+    }
 
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return uberTypes.count
+    }
 
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CarCell
+        cell.typeLabel.text = uberTypes[indexPath.row]
+        return cell
+    }
+}
 
-
-
-
-
-
+extension UICollectionView {
+    func setItemsInRow(items: Int) {
+        if let layout = self.collectionViewLayout as? UICollectionViewFlowLayout {
+            let contentInset = self.contentInset
+            let itemsInRow: CGFloat = CGFloat(items);
+            let innerSpace = layout.minimumInteritemSpacing * (itemsInRow - 1.0)
+            let insetSpace = contentInset.left + contentInset.right + layout.sectionInset.left + layout.sectionInset.right
+            let width = floor((frame.width - insetSpace - innerSpace) / itemsInRow);
+            layout.itemSize = CGSize(width: width, height: width)
+        }
+    }
+}
 

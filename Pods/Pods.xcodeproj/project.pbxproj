@@ -7,103 +7,170 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		378CCA89C817917B17AE9663D99450A7 /* Pods-RefocusTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FCCA824B7657F9E412B0D63FBEDB33 /* Pods-RefocusTask-dummy.m */; };
-		E46524A1E373DA8A5F4767FDFA65C8DD /* Pods-RefocusTask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D1E77131B8A5060F57AEAA674D81ADB /* Pods-RefocusTask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E51DEEA58217717FCF3E8BA8FF4311EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		15CDB2E9379BB6B8D88C6A8584D3DF6C /* Pods-RefocusTask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D1E77131B8A5060F57AEAA674D81ADB /* Pods-RefocusTask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABCB0FCF5FDE2AC792FF064BA10CBE /* TGLParallaxCarousel.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3E95CBDC1A077675856591D170A3EAF0 /* TGLParallaxCarousel.xib */; };
+		65176F25F51D7D79AFE1F42FBADFAA69 /* TGLParallaxCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F231057CF0BDCC85A32741B3996D965 /* TGLParallaxCarousel.swift */; };
+		6E9B124D157251E8CD20A8478F2B70BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		87B45161ADA6A3C3061EEA4D3DA5F742 /* TGLParallaxCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC84856D7D9DA50F8BAF270F51C1C2A /* TGLParallaxCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5057310C1F6476A0493FB83EB852AB0 /* Pods-RefocusTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FCCA824B7657F9E412B0D63FBEDB33 /* Pods-RefocusTask-dummy.m */; };
+		C57177604FFCDD66B0F75DDB056D6194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		DAF17C61D9E1FE53B6E76B807C5B682E /* TGLParallaxCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D23BAAD84BA993E201DC1A8CB238B5 /* TGLParallaxCarousel-dummy.m */; };
+		F8A72C954D83995606A9E6302AAEBE28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3615648EA0E1BD1330CDB3C482BF63B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C4A6717F408A67E5DA30D1476F7246B;
+			remoteInfo = TGLParallaxCarousel;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03BEB9EB4EF3216D2CA99887505EF16A /* Pods-RefocusTask-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RefocusTask-resources.sh"; sourceTree = "<group>"; };
+		0AC84856D7D9DA50F8BAF270F51C1C2A /* TGLParallaxCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGLParallaxCarousel-umbrella.h"; sourceTree = "<group>"; };
 		16FC1E83D55DFB280985892904919B3E /* Pods-RefocusTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RefocusTask.release.xcconfig"; sourceTree = "<group>"; };
+		1A9680F4EA623AB3D6A0C496D02F9ABD /* TGLParallaxCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TGLParallaxCarousel.framework; path = TGLParallaxCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D23BAAD84BA993E201DC1A8CB238B5 /* TGLParallaxCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TGLParallaxCarousel-dummy.m"; sourceTree = "<group>"; };
 		2B1DC80833834C0C157B2E42DE7709FE /* Pods-RefocusTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RefocusTask-acknowledgements.markdown"; sourceTree = "<group>"; };
-		36DB83CB4279B90D59054691B89501D1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		2CBA24E5A8F70640F1055FEE2B4CA29D /* TGLParallaxCarousel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TGLParallaxCarousel.xcconfig; sourceTree = "<group>"; };
+		39CB018327D0857E32F18A966FD5FFCE /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
 		3B7EE5FEFE4F2493001D7CE3B546FA0D /* Pods-RefocusTask-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RefocusTask-frameworks.sh"; sourceTree = "<group>"; };
-		4A3CECE9D5FB7955B3CDC0D466370500 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		3E95CBDC1A077675856591D170A3EAF0 /* TGLParallaxCarousel.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TGLParallaxCarousel.xib; path = TGLParallaxCarousel/Classes/TGLParallaxCarousel.xib; sourceTree = "<group>"; };
+		45143747C3EF19FDE96379002F010938 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		52503EF0C2C7AEA67C9136FD4D0D0EF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		54149B84315BAFBC18AD0BC885FA2883 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		5AEEB154685D401CEA2E52E2A14DD432 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		6F231057CF0BDCC85A32741B3996D965 /* TGLParallaxCarousel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGLParallaxCarousel.swift; path = TGLParallaxCarousel/Classes/TGLParallaxCarousel.swift; sourceTree = "<group>"; };
 		7D1E77131B8A5060F57AEAA674D81ADB /* Pods-RefocusTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RefocusTask-umbrella.h"; sourceTree = "<group>"; };
+		8BB8C3537FFD171D6D183D4F1193AA89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E46E016BD19EDC9DFA4008D8112B47E /* TGLParallaxCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGLParallaxCarousel-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9470099143B0D98BC3D184D3BB818E60 /* Pods-RefocusTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RefocusTask-acknowledgements.plist"; sourceTree = "<group>"; };
 		973B10E894C1F9277B27D32A615E4685 /* Pods-RefocusTask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RefocusTask.modulemap"; sourceTree = "<group>"; };
 		A6C8B45EA63BAB7767CA53E1DA1BECFE /* Pods-RefocusTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RefocusTask.debug.xcconfig"; sourceTree = "<group>"; };
-		C09978E083466A365031EB7004B3B99E /* Pods_RefocusTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RefocusTask.framework; path = "Pods-RefocusTask.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E004374149D836C1256FFFCB38FECB72 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7035CB4C98B65CC0DF0BA3A0F8B73D4 /* TGLParallaxCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TGLParallaxCarousel.modulemap; sourceTree = "<group>"; };
+		BDFD6EDDC618A68D501F6B4CB578E1A1 /* Pods_RefocusTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RefocusTask.framework; path = "Pods-RefocusTask.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F2FCCA824B7657F9E412B0D63FBEDB33 /* Pods-RefocusTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RefocusTask-dummy.m"; sourceTree = "<group>"; };
-		F95DB7ACF73CF03040C57A3D42223A51 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		81A17422210C88E8CA2E7770DEA5262E /* Frameworks */ = {
+		43CA2AF215C39C03AA423213BC354762 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E51DEEA58217717FCF3E8BA8FF4311EF /* Foundation.framework in Frameworks */,
+				C57177604FFCDD66B0F75DDB056D6194 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8924A9F0FB9B3593250CC5988D95A187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A72C954D83995606A9E6302AAEBE28 /* Foundation.framework in Frameworks */,
+				6E9B124D157251E8CD20A8478F2B70BA /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1418B056D31B27EE2CEBA552B5ADFE56 /* Base */ = {
+		00BEE7C5370C19BFD3B4865C4ED7BF1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				501562BF592517FC6A65661FF1B35C78 /* Frameworks */,
-			);
-			name = Base;
-			sourceTree = "<group>";
-		};
-		243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */ = {
-			isa = PBXGroup;
-			children = (
-				1418B056D31B27EE2CEBA552B5ADFE56 /* Base */,
-				6BC99F081C91F80679CFA5DDC6213D57 /* Maps */,
-			);
-			name = GoogleMaps;
-			path = GoogleMaps;
-			sourceTree = "<group>";
-		};
-		501562BF592517FC6A65661FF1B35C78 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E004374149D836C1256FFFCB38FECB72 /* GoogleMapsBase.framework */,
+				45143747C3EF19FDE96379002F010938 /* GoogleMaps.framework */,
+				39CB018327D0857E32F18A966FD5FFCE /* GoogleMapsCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */ = {
+		1BD184F919CE86D3F4FB3ED79D0F62CE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */,
+				54149B84315BAFBC18AD0BC885FA2883 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3F3977D77200A13B3B6AABEFDCEC0F0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AEEB154685D401CEA2E52E2A14DD432 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		695ABD2BCBCC7B4D848E340FCCDD58E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2AC17DDD4EF493164DB7E22C0F460C7 /* GoogleMaps */,
+				E6830F4AFD4B9D02131BD35CF583E677 /* TGLParallaxCarousel */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6BC99F081C91F80679CFA5DDC6213D57 /* Maps */ = {
+		74E641F2BB7B53F5ECD492285EA2253A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E10253D9A6AF596CDA1C3BBE1F2FBFD6 /* Frameworks */,
-				7679C02ACA204A8841D527A6548CA23E /* Resources */,
+				8BB8C3537FFD171D6D183D4F1193AA89 /* Info.plist */,
+				B7035CB4C98B65CC0DF0BA3A0F8B73D4 /* TGLParallaxCarousel.modulemap */,
+				2CBA24E5A8F70640F1055FEE2B4CA29D /* TGLParallaxCarousel.xcconfig */,
+				23D23BAAD84BA993E201DC1A8CB238B5 /* TGLParallaxCarousel-dummy.m */,
+				8E46E016BD19EDC9DFA4008D8112B47E /* TGLParallaxCarousel-prefix.pch */,
+				0AC84856D7D9DA50F8BAF270F51C1C2A /* TGLParallaxCarousel-umbrella.h */,
 			);
-			name = Maps;
+			name = "Support Files";
+			path = "../Target Support Files/TGLParallaxCarousel";
 			sourceTree = "<group>";
 		};
-		7679C02ACA204A8841D527A6548CA23E /* Resources */ = {
+		7624E7CE98724FBA53C2F3A37C0EB91D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A3CECE9D5FB7955B3CDC0D466370500 /* GoogleMaps.bundle */,
+				BDFD6EDDC618A68D501F6B4CB578E1A1 /* Pods_RefocusTask.framework */,
+				1A9680F4EA623AB3D6A0C496D02F9ABD /* TGLParallaxCarousel.framework */,
 			);
-			name = Resources;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */,
-				DC80C9B77441CF3234FE536BA3C3684F /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				695ABD2BCBCC7B4D848E340FCCDD58E8 /* Pods */,
+				7624E7CE98724FBA53C2F3A37C0EB91D /* Products */,
 				CD5248EB8E17681D001BE0680726D94E /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		82D4D6E9D605A81E7C2F3927874ADE33 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				00BEE7C5370C19BFD3B4865C4ED7BF1F /* Frameworks */,
+				1BD184F919CE86D3F4FB3ED79D0F62CE /* Resources */,
+			);
+			name = Maps;
 			sourceTree = "<group>";
 		};
 		AC8DC3D86F166598156E7D1556DA5897 /* Pods-RefocusTask */ = {
@@ -124,12 +191,14 @@
 			path = "Target Support Files/Pods-RefocusTask";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C2AC17DDD4EF493164DB7E22C0F460C7 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				FFC65A0C16F7537A7EF54718132F2D0C /* Base */,
+				82D4D6E9D605A81E7C2F3927874ADE33 /* Maps */,
 			);
-			name = Frameworks;
+			name = GoogleMaps;
+			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
 		CD5248EB8E17681D001BE0680726D94E /* Targets Support Files */ = {
@@ -140,60 +209,80 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		E6830F4AFD4B9D02131BD35CF583E677 /* TGLParallaxCarousel */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				6F231057CF0BDCC85A32741B3996D965 /* TGLParallaxCarousel.swift */,
+				3E95CBDC1A077675856591D170A3EAF0 /* TGLParallaxCarousel.xib */,
+				74E641F2BB7B53F5ECD492285EA2253A /* Support Files */,
 			);
-			name = iOS;
+			name = TGLParallaxCarousel;
+			path = TGLParallaxCarousel;
 			sourceTree = "<group>";
 		};
-		DC80C9B77441CF3234FE536BA3C3684F /* Products */ = {
+		FFC65A0C16F7537A7EF54718132F2D0C /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				C09978E083466A365031EB7004B3B99E /* Pods_RefocusTask.framework */,
+				3F3977D77200A13B3B6AABEFDCEC0F0B /* Frameworks */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E10253D9A6AF596CDA1C3BBE1F2FBFD6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F95DB7ACF73CF03040C57A3D42223A51 /* GoogleMaps.framework */,
-				36DB83CB4279B90D59054691B89501D1 /* GoogleMapsCore.framework */,
-			);
-			name = Frameworks;
+			name = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		33F32E05D1D041D82612C8D6E40DA330 /* Headers */ = {
+		029912C6A9BA0F7DFB344DEA2BF43085 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E46524A1E373DA8A5F4767FDFA65C8DD /* Pods-RefocusTask-umbrella.h in Headers */,
+				87B45161ADA6A3C3061EEA4D3DA5F742 /* TGLParallaxCarousel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF85F41655138D2AE5F7FF07B449ADE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CDB2E9379BB6B8D88C6A8584D3DF6C /* Pods-RefocusTask-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		01D9C4D0AE924CB3698704FB2B430D5A /* Pods-RefocusTask */ = {
+		5C4A6717F408A67E5DA30D1476F7246B /* TGLParallaxCarousel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B835A145DEF14CEF1D53667DB4B3678 /* Build configuration list for PBXNativeTarget "Pods-RefocusTask" */;
+			buildConfigurationList = 544F50FD5762FE153A7619A777143A20 /* Build configuration list for PBXNativeTarget "TGLParallaxCarousel" */;
 			buildPhases = (
-				ADDF08837B38C114BC044DFCC91D58E3 /* Sources */,
-				81A17422210C88E8CA2E7770DEA5262E /* Frameworks */,
-				33F32E05D1D041D82612C8D6E40DA330 /* Headers */,
+				DA2791136EB01AD269E08E7E75673037 /* Sources */,
+				8924A9F0FB9B3593250CC5988D95A187 /* Frameworks */,
+				029912C6A9BA0F7DFB344DEA2BF43085 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = TGLParallaxCarousel;
+			productName = TGLParallaxCarousel;
+			productReference = 1A9680F4EA623AB3D6A0C496D02F9ABD /* TGLParallaxCarousel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4A1FB166762F20E49F19D97F9CB94F9 /* Pods-RefocusTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98B000E0C3A4B71B6C9DC63ED3ABFBD /* Build configuration list for PBXNativeTarget "Pods-RefocusTask" */;
+			buildPhases = (
+				3F63E3D9F0132A1506951049B35CF8C7 /* Sources */,
+				43CA2AF215C39C03AA423213BC354762 /* Frameworks */,
+				DF85F41655138D2AE5F7FF07B449ADE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044C81761A8583341C7CBBFC634FC8A9 /* PBXTargetDependency */,
+			);
 			name = "Pods-RefocusTask";
 			productName = "Pods-RefocusTask";
-			productReference = C09978E083466A365031EB7004B3B99E /* Pods_RefocusTask.framework */;
+			productReference = BDFD6EDDC618A68D501F6B4CB578E1A1 /* Pods_RefocusTask.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -213,27 +302,120 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DC80C9B77441CF3234FE536BA3C3684F /* Products */;
+			productRefGroup = 7624E7CE98724FBA53C2F3A37C0EB91D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01D9C4D0AE924CB3698704FB2B430D5A /* Pods-RefocusTask */,
+				C4A1FB166762F20E49F19D97F9CB94F9 /* Pods-RefocusTask */,
+				5C4A6717F408A67E5DA30D1476F7246B /* TGLParallaxCarousel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ADDF08837B38C114BC044DFCC91D58E3 /* Sources */ = {
+		3F63E3D9F0132A1506951049B35CF8C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				378CCA89C817917B17AE9663D99450A7 /* Pods-RefocusTask-dummy.m in Sources */,
+				A5057310C1F6476A0493FB83EB852AB0 /* Pods-RefocusTask-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2791136EB01AD269E08E7E75673037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF17C61D9E1FE53B6E76B807C5B682E /* TGLParallaxCarousel-dummy.m in Sources */,
+				65176F25F51D7D79AFE1F42FBADFAA69 /* TGLParallaxCarousel.swift in Sources */,
+				19ABCB0FCF5FDE2AC792FF064BA10CBE /* TGLParallaxCarousel.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		044C81761A8583341C7CBBFC634FC8A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TGLParallaxCarousel;
+			target = 5C4A6717F408A67E5DA30D1476F7246B /* TGLParallaxCarousel */;
+			targetProxy = 3615648EA0E1BD1330CDB3C482BF63B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		105A3AA4FCBA114C9AF3EC7E3F4EF955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CBA24E5A8F70640F1055FEE2B4CA29D /* TGLParallaxCarousel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TGLParallaxCarousel/TGLParallaxCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TGLParallaxCarousel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TGLParallaxCarousel/TGLParallaxCarousel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TGLParallaxCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10865DEB438D0611FABE7F03D242A0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C8B45EA63BAB7767CA53E1DA1BECFE /* Pods-RefocusTask.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RefocusTask/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RefocusTask/Pods-RefocusTask.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RefocusTask;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -282,9 +464,9 @@
 			};
 			name = Debug;
 		};
-		5E19D6E575D23068CC132453DD631733 /* Debug */ = {
+		3A6AD4800F73E71F8FFCDED6B6E69D4E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6C8B45EA63BAB7767CA53E1DA1BECFE /* Pods-RefocusTask.debug.xcconfig */;
+			baseConfigurationReference = 2CBA24E5A8F70640F1055FEE2B4CA29D /* TGLParallaxCarousel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -298,20 +480,19 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RefocusTask/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TGLParallaxCarousel/TGLParallaxCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TGLParallaxCarousel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RefocusTask/Pods-RefocusTask.modulemap";
+				MODULEMAP_FILE = "Target Support Files/TGLParallaxCarousel/TGLParallaxCarousel.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RefocusTask;
+				PRODUCT_NAME = TGLParallaxCarousel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -362,7 +543,7 @@
 			};
 			name = Release;
 		};
-		87A963970064579ABC35C6BA88A5ED63 /* Release */ = {
+		8BB6090ECE081CA3E0E87EF103D3B5C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 16FC1E83D55DFB280985892904919B3E /* Pods-RefocusTask.release.xcconfig */;
 			buildSettings = {
@@ -392,6 +573,8 @@
 				PRODUCT_NAME = Pods_RefocusTask;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -410,11 +593,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B835A145DEF14CEF1D53667DB4B3678 /* Build configuration list for PBXNativeTarget "Pods-RefocusTask" */ = {
+		544F50FD5762FE153A7619A777143A20 /* Build configuration list for PBXNativeTarget "TGLParallaxCarousel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E19D6E575D23068CC132453DD631733 /* Debug */,
-				87A963970064579ABC35C6BA88A5ED63 /* Release */,
+				3A6AD4800F73E71F8FFCDED6B6E69D4E /* Debug */,
+				105A3AA4FCBA114C9AF3EC7E3F4EF955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98B000E0C3A4B71B6C9DC63ED3ABFBD /* Build configuration list for PBXNativeTarget "Pods-RefocusTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10865DEB438D0611FABE7F03D242A0CB /* Debug */,
+				8BB6090ECE081CA3E0E87EF103D3B5C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

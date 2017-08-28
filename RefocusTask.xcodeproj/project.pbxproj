@@ -14,7 +14,9 @@
 		262F36561F4BFED8009009CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262F36541F4BFED8009009CF /* LaunchScreen.storyboard */; };
 		262F36601F4C583D009009CF /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262F365F1F4C583D009009CF /* APIServices.swift */; };
 		262F36621F4F57AB009009CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262F36611F4F57AB009009CF /* Constants.swift */; };
-		BC86239D55EFD6BA8A5B21D8 /* Pods_RefocusTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1319D4BD12369222A1952951 /* Pods_RefocusTask.framework */; };
+		262F366B1F542646009009CF /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262F36691F542646009009CF /* CarCell.swift */; };
+		262F366C1F542646009009CF /* CarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262F366A1F542646009009CF /* CarCell.xib */; };
+		F737D9014421745FC900D75B /* Pods_RefocusTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1319D4BD12369222A1952951 /* Pods_RefocusTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		262F36571F4BFED8009009CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		262F365F1F4C583D009009CF /* APIServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
 		262F36611F4F57AB009009CF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		262F36631F53F405009009CF /* TGLParallaxCarousel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TGLParallaxCarousel.framework; path = "../../Library/Developer/Xcode/DerivedData/RefocusTask-gmunncwbkobdnlcwhfddmeqqujmy/Build/Products/Debug-iphonesimulator/TGLParallaxCarousel/TGLParallaxCarousel.framework"; sourceTree = "<group>"; };
+		262F36691F542646009009CF /* CarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		262F366A1F542646009009CF /* CarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarCell.xib; sourceTree = "<group>"; };
 		EE86D15D02D6E1E82603B8DB /* Pods-RefocusTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RefocusTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RefocusTask/Pods-RefocusTask.debug.xcconfig"; sourceTree = "<group>"; };
 		FC35FCDFA397C91CA9D487F7 /* Pods-RefocusTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RefocusTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-RefocusTask/Pods-RefocusTask.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC86239D55EFD6BA8A5B21D8 /* Pods_RefocusTask.framework in Frameworks */,
+				F737D9014421745FC900D75B /* Pods_RefocusTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +74,8 @@
 				262F364D1F4BFED8009009CF /* ViewController.swift */,
 				262F36611F4F57AB009009CF /* Constants.swift */,
 				262F364F1F4BFED8009009CF /* Main.storyboard */,
+				262F36691F542646009009CF /* CarCell.swift */,
+				262F366A1F542646009009CF /* CarCell.xib */,
 				262F36521F4BFED8009009CF /* Assets.xcassets */,
 				262F36541F4BFED8009009CF /* LaunchScreen.storyboard */,
 				262F365F1F4C583D009009CF /* APIServices.swift */,
@@ -80,6 +87,7 @@
 		961B4D84079D24D3581C5221 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				262F36631F53F405009009CF /* TGLParallaxCarousel.framework */,
 				1319D4BD12369222A1952951 /* Pods_RefocusTask.framework */,
 			);
 			name = Frameworks;
@@ -159,6 +167,7 @@
 			files = (
 				262F36561F4BFED8009009CF /* LaunchScreen.storyboard in Resources */,
 				262F36531F4BFED8009009CF /* Assets.xcassets in Resources */,
+				262F366C1F542646009009CF /* CarCell.xib in Resources */,
 				262F36511F4BFED8009009CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +230,7 @@
 				262F364E1F4BFED8009009CF /* ViewController.swift in Sources */,
 				262F364C1F4BFED8009009CF /* AppDelegate.swift in Sources */,
 				262F36601F4C583D009009CF /* APIServices.swift in Sources */,
+				262F366B1F542646009009CF /* CarCell.swift in Sources */,
 				262F36621F4F57AB009009CF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

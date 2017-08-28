@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CarCell" customModule="RefocusTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="112" height="122"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="112" height="122"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="49.53" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVi-0p-lhb">
+                        <rect key="frame" x="8" y="91" width="95" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UberPOOL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXC-Lx-mPT">
+                        <rect key="frame" x="9" y="66" width="95" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="OuW-YF-vbK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrx-Pf-Mhg">
+                        <rect key="frame" x="31" y="7" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="qrx-Pf-Mhg" secondAttribute="height" multiplier="1:1" id="5EL-3v-9ON"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="icons8-F1 Car-100"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="nVi-0p-lhb" firstAttribute="top" secondItem="DXC-Lx-mPT" secondAttribute="bottom" constant="4" id="1F6-bX-VeP"/>
+                <constraint firstItem="qrx-Pf-Mhg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="7" id="5M5-wh-GkQ"/>
+                <constraint firstAttribute="trailing" secondItem="qrx-Pf-Mhg" secondAttribute="trailing" constant="31" id="C0v-ls-9tV"/>
+                <constraint firstAttribute="trailing" secondItem="nVi-0p-lhb" secondAttribute="trailing" constant="9" id="F4a-PH-Ksh"/>
+                <constraint firstAttribute="bottom" secondItem="nVi-0p-lhb" secondAttribute="bottom" constant="10" id="HZc-7E-RCh"/>
+                <constraint firstItem="DXC-Lx-mPT" firstAttribute="top" secondItem="qrx-Pf-Mhg" secondAttribute="bottom" constant="9" id="Vq1-ck-0sq"/>
+                <constraint firstAttribute="trailing" secondItem="DXC-Lx-mPT" secondAttribute="trailing" constant="8" id="ZP4-fg-9bd"/>
+                <constraint firstItem="qrx-Pf-Mhg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="31" id="c02-gM-mtt"/>
+                <constraint firstItem="nVi-0p-lhb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="hP5-IH-Gdw"/>
+                <constraint firstItem="DXC-Lx-mPT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="9" id="v9Q-xX-aoq"/>
+            </constraints>
+            <size key="customSize" width="112" height="122"/>
+            <connections>
+                <outlet property="carButton" destination="qrx-Pf-Mhg" id="Yrv-52-Jd0"/>
+                <outlet property="priceLabel" destination="nVi-0p-lhb" id="WNe-HA-vuy"/>
+                <outlet property="typeLabel" destination="DXC-Lx-mPT" id="YKS-MO-1T2"/>
+            </connections>
+            <point key="canvasLocation" x="108" y="72"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icons8-F1 Car-100" width="100" height="100"/>
+    </resources>
+</document>

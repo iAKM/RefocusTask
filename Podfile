@@ -7,5 +7,8 @@ target 'RefocusTask' do
 
   # Pods for RefocusTask
   pod 'GoogleMaps'
+  pod 'TGLParallaxCarousel'
+
+
 
 end
